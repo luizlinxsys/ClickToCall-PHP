@@ -24,10 +24,8 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [AGI Asterisk](https://www.voip-info.org/asterisk-agi/)
+- [Asterisk](https://www.asterisk.org/)
 - [PHP](https://www.php.net/)
-- [Postgres](https://www.postgresql.org/)
-- [GoogleTTS](https://zaf.github.io/asterisk-googletts/)
 
 ##  Projeto
 
