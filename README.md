@@ -40,44 +40,15 @@ Bom vamos começar
 Requisitos do projeto:
 
 - Asterisk 
-
-Será necessario uma configuração no arquivo "manager.conf" localido em "/etc/asterisk/".
-
-Acrescentar um usuario e senha com algumas permissões para poder realizar as chamadas e/ou consultas.
-
-EX.
-
-[admin] // aqui será o usuario que voce vai criar.<br>
-secret=UMASENHA // aqui será a senha para o usuario que voce vai criar.<br>
-displayconnects=yes // Para mostrar as ações de conexão no CLI do asterisk.<br>
-;deny=0.0.0.0/0.0.0.0 // Negar todas as redes e/ou ip para poderão se comunicar com o AMI..<br>
-permit=0.0.0.0/0.0.0.0 // Pemitir quais redes e/ou ip poderão se comunicar com o AMI.<br>
-read=system,call,log,verbose,command,agent,user,config,command,dtmf,reporting,cdr,dialplan,originate,all // Permissões de leitura<br>
-write=system,call,log,verbose,command,agent,user,config,command,dtmf,reporting,cdr,dialplan,originate,all // Permissões de escrita<br>
-writetimeout=5000 // Tempo que o AMI vai esperar pelo próximo comando.<br>
-
-
 - PHP
-
-Mover o arquivo "ligar.php" para dentro de alguma pasta onde contenha seus códigos WEB, ou criar uma pasta separada para execução do mesmo (RECOMENDO).
-
-Meu script fica dentro da pasta abaixo e o acesso via navegador fica com o link localhost/clicktocall/ligar.php
-
-/var/www/html/clicktocall/
-
-Pra teste uso o POSTMAN para fazer o post, mas voce pode fazer diretamente via URL dessa forma.
-
-SEUIP/clicktocall/ligar.php?fone=XXXXXXXXXXX&ramal=XXXX
-
-
-Fácil demais né =) Faça bom aproveito!
-
 
 No meu Ambiente estou usando:
 
 - Asterisk 13.27.0
 - Php PHP 5.6.40
 
+
+Fácil demais né =) Faça bom aproveito!
 
 
 ## Como contribuir
