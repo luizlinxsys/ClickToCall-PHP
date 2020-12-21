@@ -47,14 +47,14 @@ Acrescentar um usuario e senha com algumas permissões para poder realizar as ch
 
 EX.
 
-[admin] // aqui será o usuario que voce vai criar.
-secret=UMASENHA // aqui será a senha para o usuario que voce vai criar.
-displayconnects=yes // Para mostrar as ações de conexão no CLI do asterisk.
-;deny=0.0.0.0/0.0.0.0 // Negar todas as redes e/ou ip para poderão se comunicar com o AMI..
-permit=0.0.0.0/0.0.0.0 // Pemitir quais redes e/ou ip poderão se comunicar com o AMI.
-read=system,call,log,verbose,command,agent,user,config,command,dtmf,reporting,cdr,dialplan,originate,all // Permissões de leitura
-write=system,call,log,verbose,command,agent,user,config,command,dtmf,reporting,cdr,dialplan,originate,all // Permissões de escrita
-writetimeout=5000 // Tempo que o AMI vai esperar pelo próximo comando.
+[admin] // aqui será o usuario que voce vai criar.<br>
+secret=UMASENHA // aqui será a senha para o usuario que voce vai criar.<br>
+displayconnects=yes // Para mostrar as ações de conexão no CLI do asterisk.<br>
+;deny=0.0.0.0/0.0.0.0 // Negar todas as redes e/ou ip para poderão se comunicar com o AMI..<br>
+permit=0.0.0.0/0.0.0.0 // Pemitir quais redes e/ou ip poderão se comunicar com o AMI.<br>
+read=system,call,log,verbose,command,agent,user,config,command,dtmf,reporting,cdr,dialplan,originate,all // Permissões de leitura<br>
+write=system,call,log,verbose,command,agent,user,config,command,dtmf,reporting,cdr,dialplan,originate,all // Permissões de escrita<br>
+writetimeout=5000 // Tempo que o AMI vai esperar pelo próximo comando.<br>
 
 
 - PHP
